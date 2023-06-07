@@ -1,0 +1,3 @@
+/Users/hyqmlwy/Desktop/university/year_2/semester_A/c_cpp/ex6-aaa997/cmake-build-debug/CMakeFiles/ex6-aaa997.dir
+/Users/hyqmlwy/Desktop/university/year_2/semester_A/c_cpp/ex6-aaa997/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hyqmlwy/Desktop/university/year_2/semester_A/c_cpp/ex6-aaa997/cmake-build-debug/CMakeFiles/rebuild_cache.dir

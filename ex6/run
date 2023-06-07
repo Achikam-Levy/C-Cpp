@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+
+if [ "$#" -ne 1 ]; then
+		echo "Usage: run <path/to/submission>"
+		exit
+fi
+
+ExNum=6
+
+
+ScriptDir=/cs/course/current/labcc/presubmit/ex${ExNum}/prsb
+
+python3 -u ${ScriptDir} "$1" nogit 2>&1 
