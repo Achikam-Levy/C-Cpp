@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/ex3-aaa997/linked_list.h
+stdlib.h
+-
+string.h
+-
+
+/tmp/ex3-aaa997/markov_chain.c
+markov_chain.h
+/tmp/ex3-aaa997/markov_chain.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/tmp/ex3-aaa997/markov_chain.h
+linked_list.h
+/tmp/ex3-aaa997/linked_list.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
