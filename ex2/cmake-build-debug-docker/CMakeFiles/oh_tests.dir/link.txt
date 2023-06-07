@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/oh_tests.dir/oh_tests/oh_tests.c.o CMakeFiles/oh_tests.dir/ProductBST.c.o CMakeFiles/oh_tests.dir/oh_tests/oh_tests_helpers.c.o  -o oh_tests 

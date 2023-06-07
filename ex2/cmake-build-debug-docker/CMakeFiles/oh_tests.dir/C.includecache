@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.gUXVI4E7TS/ProductBST.c
+oh_tests/oh_tests_helpers.h
+/tmp/tmp.gUXVI4E7TS/oh_tests/oh_tests_helpers.h
+ProductBST.h
+/tmp/tmp.gUXVI4E7TS/ProductBST.h
+stdlib.h
+/tmp/tmp.gUXVI4E7TS/stdlib.h
+stdio.h
+/tmp/tmp.gUXVI4E7TS/stdio.h
+string.h
+-
+
+/tmp/tmp.gUXVI4E7TS/ProductBST.h
+stdlib.h
+-
+stdio.h
+-
+ctype.h
+-
+stdlib.h
+/tmp/tmp.gUXVI4E7TS/stdlib.h
+stdio.h
+/tmp/tmp.gUXVI4E7TS/stdio.h
+string.h
+-
+
+/tmp/tmp.gUXVI4E7TS/oh_tests/oh_tests_helpers.h
+stdlib.h
+-
+stdio.h
+-
+

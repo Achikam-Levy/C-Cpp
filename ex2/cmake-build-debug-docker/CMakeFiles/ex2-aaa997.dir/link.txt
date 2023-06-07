@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/ex2-aaa997.dir/main.c.o CMakeFiles/ex2-aaa997.dir/ProductBST.c.o  -o ex2-aaa997 

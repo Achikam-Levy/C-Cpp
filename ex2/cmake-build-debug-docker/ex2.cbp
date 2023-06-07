@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ex2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\oh_tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oh_tests">
+				<Option output="/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/oh_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOH_TESTS"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 oh_tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oh_tests/fast">
+				<Option output="/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/oh_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOH_TESTS"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 oh_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.gUXVI4E7TS/ProductBST.c">
+			<Option target="oh_tests"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.gUXVI4E7TS/ProductBST.h">
+			<Option target="oh_tests"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.gUXVI4E7TS/oh_tests/oh_tests.c">
+			<Option target="oh_tests"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.gUXVI4E7TS/oh_tests/oh_tests_helpers.c">
+			<Option target="oh_tests"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.gUXVI4E7TS/oh_tests/oh_tests_helpers.h">
+			<Option target="oh_tests"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.gUXVI4E7TS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.gUXVI4E7TS/oh_tests/delete_ex.txt">
+			<Option virtualFolder="CMake Files\oh_tests\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.gUXVI4E7TS/oh_tests/products.txt">
+			<Option virtualFolder="CMake Files\oh_tests\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.gUXVI4E7TS/oh_tests/products_s.txt">
+			<Option virtualFolder="CMake Files\oh_tests\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.gUXVI4E7TS/oh_tests/products_s_b.txt">
+			<Option virtualFolder="CMake Files\oh_tests\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.gUXVI4E7TS/oh_tests/products_s_ex.txt">
+			<Option virtualFolder="CMake Files\oh_tests\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.gUXVI4E7TS/oh_tests/products_s_zn.txt">
+			<Option virtualFolder="CMake Files\oh_tests\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.gUXVI4E7TS/oh_tests/products_s_zn_ex.txt">
+			<Option virtualFolder="CMake Files\oh_tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

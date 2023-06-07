@@ -1,0 +1,27 @@
+Start testing: Nov 15 12:28 UTC
+----------------------------------------------------------
+13/26 Testing: test13
+13/26 Test: test13
+Command: "/tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker/oh_tests" "13"
+Directory: /tmp/tmp.gUXVI4E7TS/cmake-build-debug-docker
+"test13" start time: Nov 15 12:28 UTC
+Output:
+----------------------------------------------------------
+[0;31mstderr is diferrent from expected!
+
+[0mExpected:
+ERROR: NULL pointer passed as an argument to a function.
+
+Got:
+ERROR :Product name was not found.
+[0;31mTest 13 failed :(
+[0m
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Failed.
+"test13" end time: Nov 15 12:28 UTC
+"test13" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 15 12:28 UTC
